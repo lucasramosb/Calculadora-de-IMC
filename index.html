@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="center">
+
+        <div id="text">
+
+            <div id="info">
+                <h3>O que é IMC?</h3>
+                <p >
+                    O IMC é um parâmetro utilizado para avaliar se o peso está dentro do valor ideal para a altura. Isso significa que, a partir do resultado do IMC é possível saber se a pessoa está acima ou abaixo do peso recomendado e também diagnosticar problemas de saúde como obesidade ou desnutrição.
+                
+                    O IMC pode ser utilizado em crianças, adolescentes, adultos ou idosos.
+                </p>
+                <h3>Por que é importante saber o IMC?</h3>
+                <p>
+                    Saber o IMC é importante para verificar se o peso está de acordo com a altura da pessoa, além de ser importante para saber se existe risco de desenvolver alguma doença. No caso das crianças, o IMC é importante para saber se o desenvolvimento está de acordo com o esperado.
+                
+                    Além disso, sabendo o IMC, é possível também verificar qual o peso ideal e, assim, saber se a pessoa está acima ou abaixo do peso recomendado para a sua altura.
+                </p>
+            </div>
+
+            <div id="image">
+                <img src="img/tabela-imc.png" alt="" width="450px" >
+            </div>
+
+
+        </div>
+
+        <div id="calculator">
+            <div id="res">
+            
+                <h2>Ainda não sabe qual o seu Índicie de Massa Corporal ?</h2>
+                <p>Faça o Calculo atraves da nossa Calculadora!</p>
+            </div>
+            
+            <div id="campos">
+                <h3>Para calcular o seu IMC basta preencher os campos abaixo </h3>
+                <input type="number" name="peso" id="peso" placeholder="Peso">
+            
+                <input type="number" name="altura" id="altura" placeholder="Altura">
+                <br><br>
+            
+                <input type="button" value="Calcular" onclick="calc()">
+                <br>
+            </div>
+        </div>
+
+        
+
+    
+
+    </div>
+
+
+    <script src="calc.js">
+    </script>
+</body>
+</html>
